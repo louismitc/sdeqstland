@@ -1,0 +1,119 @@
+@font-face {
+    src: url('assets/fonts/FernVariable-Roman-VF.woff2') format("woff2"),
+         url('assets/fonts/FernVariable-Roman-VF.woff') format("woff");
+    font-family: 'Fern Web';
+    font-style: normal;
+    font-weight: 400 800;
+    }
+@font-face {
+    src: url('assets/fonts/FernVariable-Italic-VF.woff2') format("woff2"),
+         url('assets/fonts/FernVariable-Italic-VF.woff') format("woff");
+    font-family: 'Fern Web';
+    font-style: italic;
+    font-weight: 400 800;
+    }
+
+body {
+  font-family: 'fern web';
+  font-style: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 98vh;
+  background-color: #f2f2f2;
+  font-weight: 800;
+  color: #054214
+}
+
+h2 {
+  font-weight: 400;
+  margin-top: 0;
+  margin-bottom: 0
+}
+
+h3 {
+    display: inline-block;
+    font-style: italic;
+    font-weight: 800;
+    margin: 0.5em 0 0.5em 0
+
+}
+
+
+p {
+    display: inline-block;
+    margin: 0
+}
+
+img {
+  width: 2em;
+  vertical-align: middle;
+}
+
+a.button1{
+ display:inline-block;
+ padding:0.25em 1.0em;
+ border:0.1em solid #054214;
+ margin:1.5em 0.5em 0.5em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'fern web';
+  font-style: italic;
+ font-weight:400;
+ color:#054214;
+ text-align:center;
+ transition: all 0.2s;
+}
+a.button1:hover{
+ color:#FFF;
+ background-color:#054214;
+    
+
+    
+}
+
+a.button2{
+ display:inline-block;
+ padding:0.25em 1.0em;
+ border:0.1em solid #054214;
+ margin:0 0 0.5em 0;
+ border-radius:0.12em;
+ box-sizing: border-box;
+ text-decoration:none;
+ font-family:'fern web';
+  font-style: normal;
+ font-weight:400;
+ color:#054214;
+ text-align:center;
+ transition: all 0.2s;
+}
+
+a.button2:hover{
+ color:#FFF;
+ background-color:#054214;
+}
+    
+@media all and (max-width:30em){
+ a.button1{
+  display:block;
+  margin:0.4em auto;
+     
+ }
+}
+a.button2{
+  display:block;
+  margin:0.4em auto;
+}
+
+    
+.links{
+    padding:0.50em 2.0em;
+    border:0.1em solid #054214;
+    margin:0.5em 0.5em 0.5 0.5;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-align: center;
+}
+   
